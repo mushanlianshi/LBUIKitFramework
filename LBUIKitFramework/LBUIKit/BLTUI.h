@@ -14,8 +14,6 @@
 #import "BLTTextFieldView.h"
 #import "UIView+UITool.h"
 
-#import "NotifcationBarStyle.h"
-#import "NotificationBarView.h"
 #import "BLTUIResponseAreaButton.h"
 
 #import "LBProgressView.h"

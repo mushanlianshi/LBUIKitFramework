@@ -18,13 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	NotifcationBarStyle * barStyle = [[NotifcationBarStyle alloc] init];
-            barStyle.notificationContentStyle = NotificationContentScrollStyle;
-        NotificationBarView * bar = [[NotificationBarView alloc] initWithBarStyle:barStyle];
-        
-        bar.frame = CGRectMake(0, 60, [UIScreen mainScreen].bounds.size.width, 40);
-        [self.view addSubview:bar];
-//        [bar showWithShowContent:@"通知啦看walk完成拉斯凯通知啦看walk完成拉斯凯通知啦看walk完成拉斯凯通知啦看walk完成拉斯凯"];
         
         UIButton *normalButton = [[UIButton alloc] initWithFrame:CGRectMake(80, 100, 230, 60)];
         [normalButton setTitle:@"快速初始化一个弹框" forState:UIControlStateNormal];

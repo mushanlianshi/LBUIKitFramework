@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBUIKitFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'this is liubin uikit framework project'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-now this framework project contain alert 、 notice bar 、progressView 、 emptyView and common utils
+now this framework project contain alert  、progressView 、 emptyView and common utils
                        DESC
 
   s.homepage         = 'https://github.com/mushanlianshi/LBUIKitFramework'
@@ -52,9 +52,6 @@ now this framework project contain alert 、 notice bar 、progressView 、 empt
     ss.source_files = 'LBUIKitFramework/LBUIKit/Category/*.{h,m}' #Category下所有匹配的文件
    end
 
-   s.subspec 'NotificationBarView' do |ss|
-    ss.source_files = 'LBUIKitFramework/LBUIKit/NotificationBarView/*.{h,m}'
-   end
 
    s.subspec 'Alert' do |ss|
     ss.dependency 'LBUIKitFramework/UIButton'
