@@ -1,0 +1,79 @@
+{
+  "name": "LBUIKitFramework",
+  "version": "0.1.0",
+  "summary": "this is liubin uikit framework project",
+  "description": "now this framework project contain alert 、 notice bar 、progressView 、 emptyView and common utils",
+  "homepage": "https://github.com/mushanlianshi/LBUIKitFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mushanlianshi": "liu_bin_home@163.com"
+  },
+  "source": {
+    "git": "https://github.com/mushanlianshi/LBUIKitFramework.git",
+    "tag": "0.1.0",
+    "submodules": true
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LBUIKitFramework/LBUIKit/BLTUI.h",
+  "resource_bundles": {
+    "LBUIKitFramework": [
+      "LBUIKitFramework/Resources/*.png"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Header",
+      "source_files": "LBUIKitFramework/LBUIKit/Header/BLTUICommonDefines.h"
+    },
+    {
+      "name": "UIButton",
+      "dependencies": {
+        "LBUIKitFramework/Header": [
+
+        ]
+      },
+      "source_files": "LBUIKitFramework/LBUIKit/UIButton/BLTUIResponseAreaButton.{h,m}"
+    },
+    {
+      "name": "Category",
+      "dependencies": {
+        "LBUIKitFramework/Header": [
+
+        ]
+      },
+      "source_files": "LBUIKitFramework/LBUIKit/Category/*.{h,m}"
+    },
+    {
+      "name": "NotificationBarView",
+      "source_files": "LBUIKitFramework/LBUIKit/NotificationBarView/*.{h,m}"
+    },
+    {
+      "name": "Alert",
+      "dependencies": {
+        "LBUIKitFramework/UIButton": [
+
+        ],
+        "LBUIKitFramework/Category": [
+
+        ],
+        "LBUIKitFramework/Header": [
+
+        ]
+      },
+      "source_files": "LBUIKitFramework/LBUIKit/Alert/*.{h,m}"
+    },
+    {
+      "name": "EmptyView",
+      "source_files": "LBUIKitFramework/LBUIKit/EmptyView/*.{h,m}"
+    },
+    {
+      "name": "ProgressView",
+      "source_files": "LBUIKitFramework/LBUIKit/ProgressView/*.{h,m}"
+    }
+  ]
+}

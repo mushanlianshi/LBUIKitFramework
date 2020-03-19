@@ -1,0 +1,61 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LBUIKitFramework (0.1.0):
+    - LBUIKitFramework/Alert (= 0.1.0)
+    - LBUIKitFramework/Category (= 0.1.0)
+    - LBUIKitFramework/EmptyView (= 0.1.0)
+    - LBUIKitFramework/Header (= 0.1.0)
+    - LBUIKitFramework/NotificationBarView (= 0.1.0)
+    - LBUIKitFramework/ProgressView (= 0.1.0)
+    - LBUIKitFramework/UIButton (= 0.1.0)
+  - LBUIKitFramework/Alert (0.1.0):
+    - LBUIKitFramework/Category
+    - LBUIKitFramework/Header
+    - LBUIKitFramework/UIButton
+  - LBUIKitFramework/Category (0.1.0):
+    - LBUIKitFramework/Header
+  - LBUIKitFramework/EmptyView (0.1.0)
+  - LBUIKitFramework/Header (0.1.0)
+  - LBUIKitFramework/NotificationBarView (0.1.0)
+  - LBUIKitFramework/ProgressView (0.1.0)
+  - LBUIKitFramework/UIButton (0.1.0):
+    - LBUIKitFramework/Header
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - LBUIKitFramework (from `../`)
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+
+EXTERNAL SOURCES:
+  LBUIKitFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LBUIKitFramework: 111649e5cec410875802ce9dd459d76cb6bcb783
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 6cc51edf5a43f0f92ed1cf16a44a390dc9be08b7
+
+COCOAPODS: 1.9.1
